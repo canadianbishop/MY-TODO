@@ -68,14 +68,18 @@ p{
   border: 1px;
   border-radius: 10px;
   background-image: linear-gradient(rgb(0, 183, 255), rgb(255, 153, 0));
-  width: 40%;
+  width: 50%;
   margin: auto;
   padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width:500px) {
   .todo{
-    width: 90%;
+    width: 100%;
   }
 
   .p{
