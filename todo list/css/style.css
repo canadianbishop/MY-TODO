@@ -3,7 +3,7 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -11,13 +11,11 @@
 /* LAYOUT
 /*******************************************/
 
-
-
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
-ul{
+ul {
   padding: 0;
   margin: 0 auto;
   overflow: hidden;
@@ -25,7 +23,7 @@ ul{
   margin-top: 30px;
 }
 
-li{
+li {
   list-style-type: none;
   background: rgb(0, 162, 255);
   text-align: center;
@@ -35,19 +33,14 @@ li{
   border-radius: 5px;
 }
 
-
-body{
-  padding: 20px;
- 
-}
-
-.button-div, section{
+.button-div,
+section {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
-button{
+button {
   padding: 10px;
   color: white;
   border: none;
@@ -57,34 +50,25 @@ button{
   cursor: pointer;
 }
 
-p{
+p {
   width: 300px;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
 }
 
-.todo{
-  border: 1px;
+.todo {
   border-radius: 10px;
   background-image: linear-gradient(rgb(0, 183, 255), rgb(255, 153, 0));
   width: 50%;
-  margin: auto;
   padding: 15px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: auto;
+  margin-top: 100px;
+  transition: 0.2s ease-in-out;
 }
 
-@media screen and (max-width:500px) {
-  .todo{
-    width: 100%;
+@media screen and (max-width: 500px) {
+  .todo {
+    width: 90%;
   }
-
-  .p{
-    font-size: 13px;
-    font-weight: normal;
-  }
-  
 }
